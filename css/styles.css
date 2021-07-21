@@ -11323,6 +11323,10 @@ body {
   position:sticky;
   top: 55.5px;
 }
+
+#prototipo {
+  size: 20px;
+}
 /*
 .testing {
   background-image: url("../assets/img/background2.jpg");
