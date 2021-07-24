@@ -7590,6 +7590,13 @@ textarea.form-control-lg {
 .text-blue {
   color:#1744D6;
 }
+.text-blue-BBVA1 {
+  color:#004481;
+}
+.text-blue-BBVA2 {
+  color:#64C9CB;
+}
+
 .text-green {
   color: #50817e;
 }
@@ -7656,6 +7663,10 @@ textarea.form-control-lg {
 
 .bg-white {
   background-color: #fff !important;
+}
+
+.bg-blue-BBVA {
+  background-color: #004481 !important;
 }
 
 .bg-body {
@@ -11319,6 +11330,17 @@ body {
   background-size:cover;
 }
 
+.project3-header {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+  url("../assets/img/project3/group-teenagers.jpg");
+  background-position: center;
+  background-size:cover;  
+}
+
 #Submenu {
   position:sticky;
   top: 55.5px;
@@ -11327,8 +11349,35 @@ body {
 #prototipo {
   size: 20px;
 }
+
 /*
-.testing {
-  background-image: url("../assets/img/background2.jpg");
+.inner {
+overflow:hidden;
+}
+*/
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.4);
+}
+
+/*Zoom sobre imagenes
+
+img.zoom {
+  width: 350px;
+  height: 200px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+  -webkit-transform: scale(1.8); 
+  -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  transform: scale(1.8);
 }
 */
