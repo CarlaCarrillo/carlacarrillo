@@ -7596,7 +7596,12 @@ textarea.form-control-lg {
 .text-blue-BBVA2 {
   color:#64C9CB;
 }
-
+.text-pink-gf {
+color: #F2CCC7;
+}
+.text-green-gf {
+  color: #1C6056;
+  }
 .text-green {
   color: #50817e;
 }
@@ -11339,6 +11344,16 @@ body {
   url("../assets/img/project3/group-teenagers.jpg");
   background-position: center;
   background-size:cover;  
+}
+.project4-header {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url("../assets/img/project4/background1.jpg");
+  background-position: center;
+  background-size:cover;
 }
 
 #Submenu {
