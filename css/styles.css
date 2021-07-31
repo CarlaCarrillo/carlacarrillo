@@ -643,6 +643,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  z-index: 3;
 }
 
 @media (min-width: 576px) {
@@ -6472,7 +6473,7 @@ textarea.form-control-lg {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1;
+  z-index: 0;
   content: "";
 }
 
@@ -7599,6 +7600,13 @@ textarea.form-control-lg {
 .text-pink-gf {
 color: #F2CCC7;
 }
+.text-pink2-gf {
+  color: #DD7B6E;
+  }
+.text-green2-gf {
+  color: #36ad9b;
+  }
+
 .text-green-gf {
   color: #1C6056;
   }
@@ -7656,6 +7664,10 @@ color: #F2CCC7;
 .bg-light {
   background-color: #f8f9fa !important;
 }
+.bg-light-gf {
+  background-color: #E9EBEF!important;
+}
+
 
 .bg-dark {
   background-color: #212529 !important;
@@ -7672,6 +7684,9 @@ color: #F2CCC7;
 
 .bg-blue-BBVA {
   background-color: #004481 !important;
+}
+.bg-pink-gf {
+  background-color: #FDEBE7 !important;
 }
 
 .bg-body {
@@ -11355,10 +11370,21 @@ body {
   background-position: center;
   background-size:cover;
 }
+.bg-imagen-fondo {
+  background-image: 
+  linear-gradient(
+      rgba(233, 219, 219, 0.924),
+      rgba(233, 219, 219, 0.924)
+    ),
+  url("../assets/img/project4/comidacolor.jpg");
+  background-position:left;
+  background-size:cover; 
+}
 
 #Submenu {
   position:sticky;
   top: 55.5px;
+  z-index: 1;
 }
 
 #prototipo {
@@ -11381,6 +11407,8 @@ overflow:hidden;
 .animate__animated.animate__bounce {
   --animate-duration: 2s;
 }
+
+
 
 /*Zoom sobre imagenes
 
