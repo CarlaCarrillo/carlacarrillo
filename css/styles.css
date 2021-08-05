@@ -11380,6 +11380,16 @@ body {
   background-position:left;
   background-size:cover; 
 }
+.bg-imagen-proto {
+  background-image: 
+  linear-gradient(
+      rgba(233, 219, 219, 0.924),
+      rgba(233, 219, 219, 0.924)
+    ),
+  url("../assets/img/project4/Background3.svg");
+  background-position:center;
+  background-size:cover; 
+}
 
 #Submenu {
   position:sticky;
