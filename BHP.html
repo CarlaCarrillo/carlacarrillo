@@ -63,57 +63,56 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#design-process">Proceso de diseño</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contexto">Contexto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#design-process">Proceso de diseño</a></li>
                         <li class="nav-item"><a class="nav-link" href="#desarrollo">Desarrollo</a></li>
                         <li class="nav-item"><a class="nav-link" href="#prototipo">Prototipo</a></li>
                     </ul>
                 </div>
                 </div>
             </nav>
-            <!-- Design Process-->
-            <section class="design" id="design-process">
-            <div class="container px-5 my-5">
-                <div class="text-center">
-                    <h2 class="fw-bolder text-danger">Proceso de diseño</h2>
-                    <h2 class="lead fw-normal text-muted mb-5">Lean UX</h2>
-                </div>
-                <div class="row gx-5 row-cols-1 row-cols-sm-4 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5 mb-5 mb-xl-0">
-                        <div class="text-center">
-                            <img class="img-fluid mb-4 px-4" src="./assets/img/project1/search.png" alt="..." />
-                            <h5 class="fw-bolder text-black">Investigación</h5>
-                            <div class="text-muted">Entendimiento del negocio, análisis de requerimientos y del WDM de BHP.</div>
-                        </div>
-                    </div>
-                    <div class="col mb-5 mb-5 mb-xl-0">
-                        <div class="text-center">
-                            <img class="img-fluid mb-4 px-4" src="./assets/img/project1/writing.png" alt="..." />
-                            <h5 class="fw-bolder">Definición y síntesis</h5>
-                            <div class="text-muted">Establecimiento de hipótesis, estructura de la información, flujos de usuario, benchmarking y priorización de ideas.</div>
-                        </div>
-                    </div>
-                    <div class="col mb-5 mb-5 mb-sm-0">
-                        <div class="text-center">
-                            <img class="img-fluid mb-4 px-4" src="./assets/img/project1/sketch.png" alt="..." />
-                            <h5 class="fw-bolder">Construcción MVP</h5>
-                            <div class="text-muted">Wireframing y construcción del MVP basándonos en el sistema de diseño de la compañía.</div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="text-center">
-                            <img class="img-fluid mb-4 px-4" src="./assets//img/project1/teamwork.png" alt="..." />
-                            <h5 class="fw-bolder">Pruebas con usuarios e iteración</h5>
-                            <div class="text-muted">Testeo de MVP con usuarios, comprobación de hipótesis e iteración</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            </section>
             <!-- Contexto-->
+            <section class="py-0" id="contexto">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-3 mb-5 mb-lg-0">
+                            <h2 class="fw-bolder text-danger mb-3 my-3">Contexto</h2>
+                            <p class="fw-normal mb-0 fs-6"><span class="lead fw-bolder fs-6 text-danger">Rol:</span> UX designer, UI designer, Research, UX Writter</p>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class=""></i></div>
+                                    <p class="fs-4 rounded-3 text-white-50 fw-bolder bg-dark p-2"> Problema</p>
+                                    <p class="mb-0">Construir un reporte con toda la información que se genera de manera diaria dentro de la compañía, validarlos y resguardarlos es complejo, la información no está centralizada y el proceso de obtención es lento.</p>
+                                </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class=""></i></div>
+                                    <h2 class="fs-4 rounded-3 text-white-50 fw-bolder bg-dark p-2">Objetivo</h2>
+                                    <p class="mb-0">La compañía necesitaba centralizar toda la información que se generaba y con ello permitir a sus empleados capturar datos de consumos de agua, someterlos a una evaluación y aprobación, disponibilizarlos para generar reportes y finalmente resguardarlos, cumpliendo a su vez con sus estándares de gestión de datos.</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class=""></i></div>
+                                    <h2 class="fs-4 rounded-3 text-white-50 fw-bolder bg-dark p-2">Requerimientos</h2>
+                                    <p class="mb-0">Nosotras nos efocamos en la última etapa, el acceso a los datos y la información. Los requerimientos fueron:</p>
+                                    <p class="lead fw-normal fs-6 mb-0">◼ Capacidad de filtrar y descargar documentos requeridos por usuario (Ejemplo: Balances, Forecast, Badgets)</p>
+                                    <p class="lead fw-normal fs-6 mb-0">◼ Disponibilizar documentos</p>
+                                    <p class="lead fw-normal fs-6 mb-0">◼ Fomentar la automatización de reportes</p>        
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class=""></i></div>
+                                    <h2 class="fs-4 rounded-3 text-white-50 fw-bolder bg-dark p-2">Nuestras Hipótesis</h2>
+                                    <p class="lead fw-normal fs-6 mb-0">◼ Los usuarios requieren acceder a los datos de manera rápida y directa.</p>
+                                    <p class="lead fw-normal fs-6 mb-0">◼ Necesitan resguardar sus reportes.</p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!--
             <section class="px-5 my-5 bg-light" id="contexto">
-            <div class="container my-5">
+                <div class="container my-5">
                 <div class="row justify-content-center p-0 p-sm-5 mt-5">
                     <div class="col-lg-12">
                         <h2 class="fw-bolder text-center text-danger">Contexto del proyecto</h2>
@@ -138,6 +137,47 @@
                     </div>
                 </div>
             </div>
+            </section>
+            -->
+            <!-- Design Process-->
+            <section class="design" id="design-process">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="fw-bolder text-danger">Proceso de diseño</h2>
+                        <h2 class="lead fw-normal text-muted mb-5">Lean UX</h2>
+                    </div>
+                    <div class="row gx-5 row-cols-1 row-cols-sm-4 row-cols-xl-4 justify-content-center">
+                        <div class="col mb-5 mb-5 mb-xl-0">
+                            <div class="text-center">
+                                <img class="img-fluid mb-4 px-4" src="./assets/img/project1/search.png" alt="..." />
+                                <h5 class="fw-bolder text-black">Investigación</h5>
+                                <div class="text-muted">Entendimiento del negocio, análisis de requerimientos y del WDM de BHP.</div>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-5 mb-xl-0">
+                            <div class="text-center">
+                                <img class="img-fluid mb-4 px-4" src="./assets/img/project1/writing.png" alt="..." />
+                                <h5 class="fw-bolder">Definición y síntesis</h5>
+                                <div class="text-muted">Establecimiento de hipótesis, estructura de la información, flujos de usuario, benchmarking y priorización de ideas.</div>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-5 mb-sm-0">
+                            <div class="text-center">
+                                <img class="img-fluid mb-4 px-4" src="./assets/img/project1/sketch.png" alt="..." />
+                                <h5 class="fw-bolder">Construcción MVP</h5>
+                                <div class="text-muted">Wireframing y construcción del MVP basándonos en el sistema de diseño de la compañía.</div>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="text-center">
+                                <img class="img-fluid mb-4 px-4" src="./assets//img/project1/teamwork.png" alt="..." />
+                                <h5 class="fw-bolder">Pruebas con usuarios e iteración</h5>
+                                <div class="text-muted">Testeo de MVP con usuarios, comprobación de hipótesis e iteración</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </section>
             <!-- Investigación, Síntesis y Definición-->
             <section class="py-3" id="desarrollo">
@@ -195,7 +235,7 @@
                             </div>
                         </div>
                         <div class="row gx-5">
-                            <div class="col-12"><img class="img-fluid rounded-3 mb-5" src="./assets/img/project1/SistGral.png" alt="..." /></div>
+                            <div class="inner col-12"><img class="img-fluid rounded-3 mb-5" src="./assets/img/project1/SistGral1.svg" alt="..." /></div>
                         </div>
                     </div>
                 </section>
@@ -237,7 +277,7 @@
                             </div>
                         </div>
                         <div class="row gx-5">
-                            <div class="col-12"><img class="img-fluid rounded-3 mb-5" src="./assets/img/project1/site-map.png" alt="..." /></div>
+                            <div class="col-12 inner"><img class="img-fluid rounded-3 mb-5" src="./assets/img/project1/UserFlow.png" alt="..." /></div>
                         </div>
                     </div>
                 </section>           
@@ -291,7 +331,7 @@
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8">
                                 <div class="text-center mb-3">
-                                    <a href="https://www.figma.com/proto/ZzSsInWGDKYZ23BKYFKFV0/Reto-4_H2O-UX?page-id=812%3A11791&node-id=814%3A2615&viewport=539%2C380%2C0.050433915108442307&scaling=scale-down&starting-point-node-id=814%3A2615" class="link-dark fs-4">Puedes visitar el prototipo en Figma</a>
+                                    <a target="_blank" href="https://www.figma.com/proto/ZzSsInWGDKYZ23BKYFKFV0/Reto-4_H2O-UX?page-id=812%3A11791&node-id=814%3A2615&viewport=539%2C380%2C0.050433915108442307&scaling=scale-down&starting-point-node-id=814%3A2615" class="link-dark fs-4">Puedes visitar el prototipo en Figma</a>
                                     <p class="lead fw-normal my-3 text-dark fs-4">o conocerlo en el siguiente video:</p>
                                 </div>
                             </div>
@@ -337,9 +377,9 @@
                                             <a href="mailto:ccarrillo1616@gmail.com">ccarrillo1616@gmail.com</a>
                                         </p>
                                         <div class="h6 fw-bolder">Sígueme</div>
-                                        <a class="fs-5 px-2 link-dark" href="https://twitter.com/CarlaCarrillo61"><i class="bi-twitter"></i></a>
-                                        <a class="fs-5 px-2 link-dark" href="https://www.instagram.com/carlacarrimor/?hl=es"><i class="bi-instagram"></i></a>
-                                        <a class="fs-5 px-2 link-dark" href="https://www.linkedin.com/in/carla-carrillo-morales/"><i class="bi-linkedin"></i></a>
+                                        <a class="fs-5 px-2 link-dark" target="_blank" href="https://twitter.com/CarlaCarrillo61"><i class="bi-twitter"></i></a>
+                                        <a class="fs-5 px-2 link-dark" target="_blank" href="https://www.instagram.com/carlacarrimor/?hl=es"><i class="bi-instagram"></i></a>
+                                        <a class="fs-5 px-2 link-dark" target="_blank" href="https://www.linkedin.com/in/carla-carrillo-morales/"><i class="bi-linkedin"></i></a>
                                     </div>
                                 </div>
                             </div>
